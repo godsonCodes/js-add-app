@@ -1,0 +1,7 @@
+#reset-msg{
+    display: none;
+}
+
+#reset-msg.active{
+    display: block;
+}

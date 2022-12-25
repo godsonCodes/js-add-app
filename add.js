@@ -59,27 +59,3 @@ submitBtn.addEventListener('click', function (){
     submitBtn.disabled=true;
 }
 );
-
-
-// class Thermostat{
-//     constructor(temperature){
-//       this.temp = temperature;
-//     }
-  
-//     get temperature(){
-//       return this.temp;
-//     }
-  
-//     set temperature(celTemp){
-//         this.temp = (celTemp * 9/5) + 32;
-//     }
-//   }
-//   // Only change code above this line
-  
-//   const thermos = new Thermostat(76); // Setting in Fahrenheit scale
-//   console.log(thermos.temperature)
-//   let temp = thermos.temperature; // 24.44 in Celsius
-//   console.log(temp)
-//   thermos.temperature = 26;
-//   temp = thermos.temperature; // 26 in Celsius
-//   console.log(temp)
